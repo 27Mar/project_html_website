@@ -117,3 +117,86 @@ nav ul li a {
     padding: .1rem 1rem;
 
 }
+
+.services{
+    background: fff;
+    max-width: 1440px;
+    margin-top: 50px;
+}
+
+.sv-container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.services-con{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.services-info{
+    margin-top: 160px;
+    width: 1440px;
+    border: 1px;
+}
+
+.sv-title h1 {
+    font-size: 48px;
+    margin-bottom: 1rem;
+}
+
+.sv-box {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sv-item{
+    width: 255px;
+    border: 1px;
+}
+
+.sv-item h3{
+    color: #0B0757;
+    font-size: 20px;
+    margin: .10rem 0;
+}
+
+.sv-item p{
+    color: #8480AE;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+    height: 975px;
+    align-items: center;
+    border: 1px;
+}
+
+.blog-left{
+    width: 450px;
+}
+
+.blog-left img{
+    width: 100%;
+}
+
+.blog-right{
+    width: 570px;
+}
+
+.blog-title h1{
+    color:  #0B0757;
+    font-size: 48px;
+}
+
+.blog-content p {
+    font-size: 18px;
+    color:  #8480AE;
+    line-height: 30px;
+    
+}

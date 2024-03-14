@@ -180,3 +180,71 @@ input {
     color: #0B075733;
     ;
   }
+
+footer{
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+footer .row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer .col{
+    flex-basis: 20%;
+    padding: 5px;
+}
+
+.col h5{
+    font-size: 20px;
+    color: #0B0757;
+    line-height: 24px;
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.col p{
+    font-size: 16px;
+    color: #8480AE;
+    line-height: 30px;
+}
+
+.socialicon a {
+    text-decoration: none;
+    padding: 10px;
+    background-color:#1374F626;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicon a{
+    font-size: 1rem;
+    color: #1374F6;
+    opacity: 0.9;
+}
+
+.copyright {
+    border-top: 1px solid #8480AE4D ;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.copyright p{
+    font-size: 16px;
+    color: #cbdbf1;
+    line-height: 28px;
+    margin-top: 10px;
+    text-align: center;
+}
+

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+header{ 
+    height: 700px;
+    background: url('/img/Group\ 5763.png') no-repeat;
+    background-size: 600px;
+    background-position: right 175px;
+}
+
+nav{
+    height: 60px;
+    /*border: 1px solid red;*/
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 646px;
+   /* border: 1px solid red;*/
+   justify-content: space-between;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.logo {
+    order: -1;
+    margin-right: auto;
+    width: 142px;
+    height: 43px;
+    top: 13px;
+    left: 232px;
+}
+
+.nav-btn {
+    text-align: center;
+    width: 160px;
+    background:  #FDD76E;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-btn a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.header-info {
+    margin-top: 115px;
+    width: 450px;
+    /*border: 1px solid red;*/
+}
+
+.header-info h1 {
+    font-size: 48px;
+}
+.header-info p {
+    width: 555px;
+    font-size: 18px;
+    color:#1374F6;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.header-btn {
+    display: flex;
+    margin-top: 30px;
+}
+
+.header-btn a {
+    display: inline-block;
+}
+
+.Get-started {
+    background: #1374F6;
+    color: #fff;
+    width: 160px;
+    height: 25px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-btn img {
+    margin-bottom: 70px;
+    margin-left: 30px;
+}
+
+.Watch-video {
+    text-decoration: none;
+    padding: .1rem 1rem;
+}
